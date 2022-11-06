@@ -6,25 +6,24 @@
 5. [References](#references)
 ### General Info
 Project Status:  **Complete**
-'
+
 This is a script used to summarize stock data, looking at year over year changes in stock price, 
 the percent difference between the year opening and closing values, and total volume.  It also 
 summarizes the greatest and worst performing stock in the year, and the stock with the greatest 
 volume of trades.
-'
+
 It will perform the analysis on any number of worksheets in the workbook
-'
+
 ### Screenshot
 Example screenshots included in repository
-'
+
 ## Installation
-***
-A little intro about the installation. 
-'
 Download and import script into Excel sheet
-'
-it requires the following data in columns in the following order:
+
+The code requires the following data in columns in the following order:
 <ticker>,<date>,<open>,<high>,<low>,<close>,<vol>
+
+These columns must be sorted ascending first by <ticker>, then by <date>.
 
 ## Requirements
     Create a script that loops through all the stocks for one year and outputs the following information:
