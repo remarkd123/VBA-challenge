@@ -21,9 +21,9 @@ Example screenshots included in repository
 Download and import script into Excel sheet
 
 The code requires the following data in columns in the following order:
-<ticker>,<date>,<open>,<high>,<low>,<close>,<vol>
+ticker, date, open, high, low, close, vol
 
-These columns must be sorted ascending first by <ticker>, then by <date>.
+These columns must be sorted ascending first by ticker, then by date.
 
 ## Requirements
     Create a script that loops through all the stocks for one year and outputs the following information:
