@@ -69,7 +69,7 @@ Sub challenge2()
                 ticker_name = ws.Cells(i, 1).Value
                 ticker_volume = ticker_volume + ws.Cells(i, 7).Value
                 ticker_end = ws.Cells(i, 6).Value
-                ticker_delta = ticker_start - ticker_end
+                ticker_delta = ticker_end - ticker_start
                 ticker_pctdelta = ticker_delta / ticker_start * 100
                 
                 'print values to summary table
